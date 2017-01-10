@@ -627,6 +627,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt up" />
   </action>
   <action id="WD.UploadCurrentRemoteFileAction" />
+  <action id="WelcomeScreen.Settings">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
   <action id="ZoomCurrentWindow" />
   <action id="context.clear" />
   <action id="editRunConfigurations">

@@ -1,0 +1,9 @@
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="Find" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+  <action id="WelcomeScreen.Settings">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
+</keymap>

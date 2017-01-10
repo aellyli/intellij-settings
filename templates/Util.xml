@@ -1,0 +1,9 @@
+<templateSet group="Util">
+  <template name="_date" value="$date$ $asdf$" description="오늘 날짜 출력 (yyyy-MM-dd)" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="asdf" expression="year()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -25,49 +25,49 @@
   </template>
   <template name="_jsci" value="/*---------Inner Class---------*/&#10;&#10;/*---------End Inner Class---------*/" description="내부클래스 영역 구분 주석" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="_jscni" value="/*---------Field---------*/&#10;&#10;/*---------End Field---------*/" description="인터페이스 영역 구분 주석" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="_jdcc" value="/**&#10; * .&#10; * @since $DATE$&#10; * @author AellyLi&#10; */" description="타입 자바독" toReformat="false" toShortenFQNames="false">
     <variable name="DATE" expression="date(&quot;yyyy.MM.dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="_jem" value="// end method($METHODNAME$)" description="메소드 종료 주석" toReformat="false" toShortenFQNames="true">
     <variable name="METHODNAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="_jec" value="// end class($CLASSNAME$)" description="클래스 종료 주석" toReformat="false" toShortenFQNames="true">
     <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="_jei" value="// end interface($CLASSNAME$)" description="인터페이스 종료 주석" toReformat="false" toShortenFQNames="true">
     <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="_jee" value="// end enum($CLASSNAME$)" description="열거형 종료 주석" toReformat="false" toShortenFQNames="true">
     <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="_met" value="$NAME$" description="메소드 이름 출력" toReformat="false" toShortenFQNames="true">

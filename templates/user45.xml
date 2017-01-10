@@ -5,9 +5,9 @@
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="GROOVY_DECLARATION" value="true" />
-      <option name="GROOVY_STATEMENT" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
   <template name="_met" value="$NAME$" description="메소드 이름 출력" toReformat="false" toShortenFQNames="true">
@@ -16,9 +16,9 @@
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="GROOVY_DECLARATION" value="true" />
-      <option name="GROOVY_STATEMENT" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

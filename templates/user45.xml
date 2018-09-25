@@ -2,23 +2,23 @@
   <template name="_clz" value="$NAME$" description="클래스  이름 출력" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_EXPRESSION" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="GROOVY_DECLARATION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="_met" value="$NAME$" description="메소드 이름 출력" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_EXPRESSION" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="GROOVY_DECLARATION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

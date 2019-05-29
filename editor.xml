@@ -1,31 +1,26 @@
 <application>
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="D2Coding" />
+  </component>
   <component name="SpringEditorOptions">
     <option name="showProfilesPanel" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="73bf" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="73bf" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
-    </pattern>
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\btodo aellyli\b.*">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" pattern="\btodo aellyli\b.*">
       <option name="FOREGROUND" value="ff0000" />
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="ff" />
     </pattern>
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\bfixme aellyli\b.*">
+    <pattern useCustomColors="true" pattern="\bfixme aellyli\b.*">
       <option name="FOREGROUND" value="ff0000" />
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="ff" />
     </pattern>
     <filter name="Aelly TODO">
-      <pattern index="2" />
       <pattern index="3" />
+      <pattern index="2" />
     </filter>
   </component>
 </application>

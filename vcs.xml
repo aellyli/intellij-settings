@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/aellyli/intellij-settings.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://bitbucket.org" />
+          <option name="userName" value="aellyli@gmail.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="/Volumes/data/projects/misc" />

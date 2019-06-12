@@ -1,29 +1,5 @@
 <application>
-  <component name="DefaultFont">
-    <option name="FONT_FAMILY" value="D2Coding" />
-  </component>
-  <component name="EditorSettings">
-    <option name="IS_WHITESPACES_SHOWN" value="true" />
-  </component>
   <component name="SpringEditorOptions">
     <option name="showProfilesPanel" value="false" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
-    <pattern useCustomColors="true" pattern="\btodo aellyli\b.*">
-      <option name="FOREGROUND" value="ff0000" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="ff" />
-    </pattern>
-    <pattern useCustomColors="true" pattern="\bfixme aellyli\b.*">
-      <option name="FOREGROUND" value="ff0000" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="ff" />
-    </pattern>
-    <filter name="Aelly TODO">
-      <pattern index="3" />
-      <pattern index="2" />
-    </filter>
   </component>
 </application>

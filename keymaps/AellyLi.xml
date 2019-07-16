@@ -134,9 +134,6 @@
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="alt left" />
-  </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>

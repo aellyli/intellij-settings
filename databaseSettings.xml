@@ -1,8 +1,9 @@
 <application>
   <component name="DatabaseSettings" version="4">
+    <option name="reuse-result-tab" value="false" />
     <option name="execute-inside-option" value="3" />
     <exec-options>
-      <exec-option exec-inside="3" />
+      <exec-option new-tab="true" exec-inside="3" />
       <exec-option />
       <exec-option />
     </exec-options>

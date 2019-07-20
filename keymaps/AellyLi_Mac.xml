@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="o" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="shift help" />
@@ -124,6 +127,9 @@
   </action>
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="o" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="shift help" />
@@ -443,9 +449,6 @@
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="shift ctrl space" />
-  </action>
-  <action id="RecentProjectListGroup">
-    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="o" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl meta t" />

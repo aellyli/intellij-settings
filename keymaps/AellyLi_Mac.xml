@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="o" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="shift help" />
@@ -24,7 +27,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="ChangesView.Revert">
-    <keyboard-shortcut first-keystroke="ctrl alt z" />
+    <keyboard-shortcut first-keystroke="ctrl meta z" />
   </action>
   <action id="ClearHighlight">
     <keyboard-shortcut first-keystroke="shift alt delete" />
@@ -125,6 +128,9 @@
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="o" />
+  </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="shift help" />
   </action>
@@ -171,9 +177,17 @@
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
+  <action id="EditorPageDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorPageUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift meta v" />
@@ -321,6 +335,9 @@
   <action id="ImportModule">
     <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="i" />
   </action>
+  <action id="IntroduceTypeAlias">
+    <keyboard-shortcut first-keystroke="shift ctrl meta a" />
+  </action>
   <action id="JRebel Debug">
     <keyboard-shortcut first-keystroke="shift meta x" second-keystroke="shift meta h" />
   </action>
@@ -389,7 +406,7 @@
   </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="ctrl f7" />
-    <keyboard-shortcut first-keystroke="shift meta alt z" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta down" />
   </action>
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl meta close_bracket" />
@@ -422,7 +439,7 @@
   </action>
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="shift f7" />
-    <keyboard-shortcut first-keystroke="shift meta alt a" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta down" />
   </action>
   <action id="PreviousProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl meta open_bracket" />
@@ -441,16 +458,12 @@
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
-  <action id="RecentProjectListGroup">
-    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="o" />
-  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl meta t" />
   </action>
   <action id="RemoteHostView.EditSource" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="meta alt r" />
-    <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl meta o" />
@@ -489,6 +502,9 @@
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="ctrl meta y" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -624,6 +640,12 @@
   </action>
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
+  </action>
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl meta down" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl meta up" />
   </action>
   <action id="ViewNavigationBar">
     <keyboard-shortcut first-keystroke="ctrl meta alt up" />

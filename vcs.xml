@@ -14,12 +14,8 @@
           <option name="url" value="https://private_aelly@bitbucket.org/private_aelly/javastudy.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://private_aelly@bitbucket.org/private_aelly/sampleutils.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/Volumes/Data/Projects/Study/SampleUtils" />
+    <option name="cloneParentDir" value="D:\Projects\Sample" />
   </component>
 </application>

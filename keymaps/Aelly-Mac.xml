@@ -1,4 +1,4 @@
-<keymap version="1" name="AellyLi_Mac" parent="Eclipse (Mac OS X)">
+<keymap version="1" name="Aelly-Mac" parent="Eclipse (Mac OS X)">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="meta back_space" />

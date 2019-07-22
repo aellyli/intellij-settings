@@ -1,4 +1,4 @@
-<keymap version="1" name="AellyLi" parent="Eclipse">
+<keymap version="1" name="Aelly-Win" parent="Eclipse">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="shift alt d" />
